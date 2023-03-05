@@ -1,9 +1,5 @@
 <h1 align="center">
   Clinic
-
-  <br>
-
-  Trilha Node.js (aulas)
 </h1>
 
 <br>
