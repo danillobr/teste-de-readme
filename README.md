@@ -35,17 +35,20 @@ Esta é uma API que tem como função permitir que um cliente contrate serviços
 - [x]  Fazer login no sistema (atentende | cliente).
 
 ## :link: Rotas:
-- POST `/users`: cria um novo usuário.
-- GET `/users`: retorna todos os usuários.
-- GET `/users/{user_id}`: retorna um usuário específico.
-- PATCH `users/{user_id}/admin`: torna um usuário em admin.
+- POST `/clients`: cria um novo cliente.
+- POST `/attendants`: cria um novo atendente.
+- POST `/professionals`: cria um novo profissional.
+- POST `/services`: cria um novo serviço.
+- POST `/treatment`: cria o atendimento.
+- POTS `/summary`: cria o relatório
+- GET `/professionals`: retorna todos os profisionais cadastrados.
+- GET `/services`: retorna todos os serviços que são prestados.
+- GET `/summary/{client_id}`: retorna o relatório do usuário
 
 ## :memo: Execução da API:
-- Instalação das dependências:
-  > yarn
-- Execução da API:
-  > yarn dev
-- Execução dos testes:
+- Instalar as dependências, iniciar o banco de dados, rodas as migrations, rodar o seed e executar a API:
+  > docker-compose up
+- Execução dos testes unitários:
   > yarn test
 
 ## :information_source: Documentação:
