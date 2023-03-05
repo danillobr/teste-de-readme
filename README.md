@@ -22,13 +22,17 @@
 </p>
 
 ## :computer: Descrição:
-Esta é uma API que tem como função cadastrar e listar usuários. Para que a listagem de usuários seja realizada, o usuário que solicita esta ação dever ser um administrador. Com a execução do projeto é possível acessar a documentação da API desenvolvida com o [Swagger](https://swagger.io/).
+Esta é uma API que tem como função permitir que um cliente contrate serviços de um profissional através de um atendimento gerenciado por um atendente, o cliente solicita o atendimento de algum(uns) serviço(s), o atendente passa os serviços solicitados para o professional que realizar o serviço. Para cada serviço realizado o profissional receberá uma comissão em percentual do valor do serviço. A aplicação gera um relatório do atendimento e o atendente o passa para o cliente, no relatório tem o valor total dos serviços, quanto tempo vai levar para os serviços serem concluídos e o valor da comisão que o profissional irá receber. Com a execução do projeto é possível acessar a documentação da API desenvolvida com o [Swagger](https://swagger.io/).
 
 ## :hammer_and_wrench: Funcionalidades:
-- [x]  Criar um novo usuário com `name` e `email`.
-- [x]  Listar todos os usuários.
-- [x]  Retornar um único usuário.
-- [x]  Tornar um usuário em `admin`.
+- [x]  Criar um novo usuário com `nome`, `email`, `senha`, `CPF` e `telefone`.
+- [x]  Criar um novo atendente com `nome`, `email`, `senha`, e `função (administrador | básico)`.
+- [x]  Cadastrar um profissonal com `nome` e `telefone`.
+- [x]  Cadastrar os serviços prestador com `nome`, `valor`, `tempo`, `porcentagem`.
+- [x]  Listar os serviços.
+- [x]  Listar os profissionais.
+- [x]  Atendente gerar relatório do atendimento com `comissão`, `tempo total`, `valor total`.
+- [x]  Fazer login no sistema (atentende | cliente).
 
 ## :link: Rotas:
 - POST `/users`: cria um novo usuário.
