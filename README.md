@@ -43,7 +43,8 @@ Esta é uma API que tem como função permitir que um cliente contrate serviços
 - POTS `/summary`: cria o relatório
 - GET `/professionals`: retorna todos os profisionais cadastrados.
 - GET `/services`: retorna todos os serviços que são prestados.
-- GET `/summary/{client_id}`: retorna o relatório do usuário
+- GET `/summary/{client_id}`: retorna o relatório do usuário.
+- `localhost:3333/api-docs`: documentação da API com Swagger.
 
 ## :memo: Execução da API:
 - Instalar as dependências, iniciar o banco de dados, rodas as migrations, rodar o seed e executar a API:
