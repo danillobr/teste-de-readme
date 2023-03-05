@@ -22,7 +22,7 @@
 </p>
 
 ## :computer: Descrição:
-Esta é uma API que tem como função permitir que um cliente contrate serviços de um profissional através de um atendimento gerenciado por um atendente, o cliente solicita o atendimento de algum(uns) serviço(s), o atendente passa os serviços solicitados para o professional que realizar o serviço. Para cada serviço realizado o profissional receberá uma comissão em percentual do valor do serviço. A aplicação gera um relatório do atendimento e o atendente o passa para o cliente, no relatório tem o valor total dos serviços, quanto tempo vai levar para os serviços serem concluídos e o valor da comisão que o profissional irá receber. Com a execução do projeto é possível acessar a documentação da API desenvolvida com o [Swagger](https://swagger.io/).
+Esta é uma API que tem como função permitir que um cliente contrate serviços de um profissional através de um atendimento gerenciado por um atendente, o cliente solicita o atendimento de algum(uns) serviço(s), o atendente passa os serviços solicitados para o professional que os realiza. Para cada serviço realizado o profissional receberá uma comissão em percentual do valor do serviço. A aplicação gera um relatório do atendimento e o atendente o passa para o cliente, no relatório tem o valor total dos serviços, quanto tempo vai levar para os serviços serem concluídos e o valor da comisão que o profissional irá receber. Com a execução do projeto é possível acessar a documentação da API desenvolvida com o [Swagger](https://swagger.io/).
 
 ## :hammer_and_wrench: Funcionalidades:
 - [x]  Criar um novo usuário com `nome`, `email`, `senha`, `CPF` e `telefone`.
