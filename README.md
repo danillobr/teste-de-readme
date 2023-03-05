@@ -21,4 +21,28 @@
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
 </p>
 
-<br>
+## :computer: Descrição:
+Esta é uma API que tem como função cadastrar e listar usuários. Para que a listagem de usuários seja realizada, o usuário que solicita esta ação dever ser um administrador. Com a execução do projeto é possível acessar a documentação da API desenvolvida com o [Swagger](https://swagger.io/).
+
+## :hammer_and_wrench: Funcionalidades:
+- [x]  Criar um novo usuário com `name` e `email`.
+- [x]  Listar todos os usuários.
+- [x]  Retornar um único usuário.
+- [x]  Tornar um usuário em `admin`.
+
+## :link: Rotas:
+- POST `/users`: cria um novo usuário.
+- GET `/users`: retorna todos os usuários.
+- GET `/users/{user_id}`: retorna um usuário específico.
+- PATCH `users/{user_id}/admin`: torna um usuário em admin.
+
+## :memo: Execução da API:
+- Instalação das dependências:
+  > yarn
+- Execução da API:
+  > yarn dev
+- Execução dos testes:
+  > yarn test
+
+## :information_source: Documentação:
+[Atlas API](http://localhost:3333/api-docs)
