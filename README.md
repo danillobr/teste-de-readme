@@ -26,7 +26,7 @@ Esta é uma API que tem como função permitir que um cliente contrate serviços
 
 ## :hammer_and_wrench: Funcionalidades:
 - [x]  Criar um novo usuário com `nome`, `email`, `senha`, `CPF` e `telefone`.
-- [x]  Criar um novo atendente com `nome`, `email`, `senha`, e `função (administrador | básico)`.
+- [x]  Criar um novo atendente com `nome`, `email`, `senha`.
 - [x]  Cadastrar um profissonal com `nome` e `telefone`.
 - [x]  Cadastrar os serviços prestador com `nome`, `valor`, `tempo`, `porcentagem`.
 - [x]  Listar os serviços.
