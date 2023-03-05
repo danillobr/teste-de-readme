@@ -1,11 +1,5 @@
-<p align="center">
-  <img src=".github/capa-ignite-nodejs.png" alt="Ignite Node.js">
-</p>
-
-<br>
-
 <h1 align="center">
-  Ignite
+  Clinic
 
   <br>
 
